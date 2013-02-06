@@ -1,0 +1,12 @@
+CACHE MANIFEST
+
+CACHE:
+index.html
+css/style.css
+img/favicon.jpg
+javascript/hammer.js
+javascript/jquery-1.8.0.min.js
+javascript/jquery.hammer.js
+javascript/jquery.specialevent.hammer.js
+javascript/main.js
+
