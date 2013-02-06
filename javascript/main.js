@@ -3,9 +3,12 @@ $(function(){
 	
 	var list = $('ul');
 	list.delegate('li:not(:last)', 'swipe click', function(){
+		var _ = this;
 		var current = $(this).next();
 		current.css('left', 0);
-		
+		setTimeout(function(){
+			$(_).hide();
+		}, 2000);
 		window.localStorage.setItem('current', current[0].id);
 	});
 

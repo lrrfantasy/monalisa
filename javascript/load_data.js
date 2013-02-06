@@ -11,7 +11,7 @@
 			callback && callback(++i);
 			setTimeout(function(){
 				window.loadData(callback);
-			}, 1000);
+			}, 3000);
 		});
 	};
 })();
